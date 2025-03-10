@@ -6,25 +6,29 @@ Before setting up the project, ensure you have the following installed:
 
 - Docker Desktop → Ensure it is installed and running.
 
-# Installation Steps
+## Installation Steps
 
-1. Install Frontend Dependencies
+1. **Install Frontend Dependencies**
 
 Navigate to the frontend folder and install the required dependencies:
 
-cd frontend
-npm install
+```bash
+    cd frontend
+    npm install
+```
 
-2. Start Backend with Docker
+2. **Start Backend with Docker**
 
 Navigate to the larvis/ directory and run:
 
-cd larvis
-docker compose up --build
+```bash
+    cd larvis
+    docker compose up --build
+```
 
 This will build and run the Frontend Application.
 
-3. Access the Application
+3. **Access the Application**
 
 Frontend: http://localhost:5173/
 
